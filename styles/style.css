@@ -1,0 +1,70 @@
+/* Grace Offner
+Module 7 */
+
+body {
+    background-color: #eef7fb;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    border: 2px solid #006699;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 2px solid #006699;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: #006699;
+}
+
+h2 {
+    color: #008080;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #cc6600;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+img {
+    max-width: 100%;
+    border: 2px solid #999999;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+iframe {
+    max-width: 100%;
+    margin: 15px 0;
+}
