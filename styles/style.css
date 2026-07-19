@@ -1,0 +1,222 @@
+/* Grace Offner
+Module 8 */
+
+body {
+    background-color: #eef7fb;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(to right, #d9f1fa, #ffffff);
+    border: 2px solid #006699;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    border-top: 2px solid #006699;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: #006699;
+}
+
+h2 {
+    color: #008080;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #cc6600;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:focus {
+    background-color: #d9f1fa;
+    color: #006699;
+}
+
+.intro-layout {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.intro-layout img {
+    width: 45%;
+}
+
+.intro-layout section {
+    flex: 1;
+}
+
+.travel-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f8fcfe;
+}
+/* Module 10 Responsive Styles */
+
+@media only screen and (max-width: 900px) {
+
+    body {
+        max-width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .intro-layout {
+        flex-direction: column;
+    }
+
+    .travel-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    header {
+        margin: 0;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    nav {
+        margin: 0;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 12px;
+    }
+
+    main {
+        margin: 0;
+        border-radius: 0;
+        padding: 12px;
+    }
+
+    .intro-layout {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .travel-cards {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    iframe {
+        max-width: 100%;
+    }
+}
